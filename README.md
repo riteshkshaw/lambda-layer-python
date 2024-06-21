@@ -7,7 +7,6 @@ This repository contains scripts and files to create a Lambda layer using Docker
 Before running the scripts, ensure that you have the following prerequisites:
 
 - Docker installed on your machine
-- Python 3.x installed
 - Access to the command line or terminal
 
 ## Script Files
