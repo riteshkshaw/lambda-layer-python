@@ -84,8 +84,3 @@ CMD cd /opt && zip -r9 /app/python-layer.zip .
 - The `RUN` instruction installs the Python packages listed in `requirements.txt` to the `/opt/python/` directory.
 - The `CMD` instruction specifies the command to be executed when the container starts. It changes the directory to `/opt`, creates a ZIP file named `python-layer.zip` containing the installed packages, and saves it to the `/app` directory.
 
-## Conclusion
-
-By using the provided `create_layer.sh` script and `Dockerfile`, you can easily create a Python Lambda layer with the required libraries. The script automates the process of building the Docker image, installing the libraries, and creating the layer ZIP file. You can customize the script and Dockerfile to suit your specific requirements and use different Python versions or base images as needed.
-
-Once you have the generated layer ZIP file, you can upload it to AWS Lambda and use it in your Lambda functions to access the included Python libraries.
